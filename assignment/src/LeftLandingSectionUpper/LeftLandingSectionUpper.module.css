@@ -1,0 +1,115 @@
+.Title{
+    position: relative;
+  }
+  
+  .Title > p{
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: 0px;
+  }
+  
+  .Dot{
+    width: 10px;
+    background-color: #5243C0;
+    height: 10px;
+    position: absolute;
+    bottom: 16px;
+    left: 338px;
+  }
+  
+  .Paradiv{
+    width: 400px;
+    margin-bottom: 25px;
+  }
+  
+  .Para{
+    font-weight: 400;
+    color: #73716F;
+  }
+  
+  .ButtonWrapp{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    /* margin-top: 20px; */
+  }
+
+  .Flex{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .OtherButton{
+    border: none;
+    outline: none;
+    width: 125px;
+    height: 50px;
+    border-radius: 23px;
+    background-color: #5243C0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Flex > img{
+    width: 50px;
+  }
+
+  .RightSection{
+    width: 100%;
+    display: none;
+  }
+
+  .RightImage{
+    width: 100%;
+  }
+
+@media(max-width: 420px){
+    
+   .ButtonWrapp{
+     width: 350px;
+     display: flex;
+     flex-direction: column;
+   }
+
+   .Paradiv{
+     width: 100%;
+     margin-bottom: 18%;
+   }
+
+   .Para{
+     width: 340px;
+   }
+   
+   .OtherButton{
+     width: 125px;
+   }
+
+   .Flex{
+     width: 72%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-right: auto;
+     margin-bottom: 15%;
+   }
+
+   /* .Flex > img{
+     margin-left: 10px;
+   } */
+
+   .RightSection{
+     width: 100%;
+     display: block;
+     margin: 5px 16px;
+   }
+
+   .RightImage{
+     width: 100%;
+   }
+
+}

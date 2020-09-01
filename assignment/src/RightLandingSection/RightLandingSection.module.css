@@ -1,0 +1,17 @@
+.RightSection{
+    width: 50%;
+    margin-left: auto;
+ }
+ 
+ .RightImage{
+   width: 92%;
+ }
+
+@media(max-width: 420px){
+   
+  .RightSection{
+    width: 0%;
+    display: none;
+  }
+
+}

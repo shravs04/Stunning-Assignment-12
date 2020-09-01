@@ -1,0 +1,10 @@
+.App{
+  padding: 1% 4%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 400px){
+  .App{
+    width: 100%;
+  }
+}

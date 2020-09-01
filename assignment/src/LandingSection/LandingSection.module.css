@@ -1,0 +1,19 @@
+.LandingSection{
+    width: 100%;
+    padding: 1.5% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 420px){
+
+    .LandingSection{
+       width: 100%;
+       padding-left: 0%;
+       padding-right: 0%;
+       box-sizing: border-box;
+    }
+}
+ 
